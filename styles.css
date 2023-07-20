@@ -7,7 +7,7 @@ body {
 	background-color: #40781b;
 	font-size: 62.5%;
 }
-header mainHeading {
+mainHeading {
     display: block;
     color: red;
     font-size: 2.5em;
