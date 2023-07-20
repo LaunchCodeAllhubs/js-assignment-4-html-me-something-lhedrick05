@@ -3,8 +3,15 @@ body {
 	width: 100%;
 	max-width: 1024px;
 	margin: 8px auto;
+    display: block;
 	background-color: #40781b;
 	font-size: 62.5%;
+}
+header mainHeading {
+    display: block;
+    color: red;
+    font-size: 2.5em;
+    text-align: center;
 }
 
 header,
@@ -18,17 +25,17 @@ header {
 	padding: 1.875em 0;
 }
 
-header h1 {
+/* header h1 {
 	text-align: center;
-}
+} */
 
-h1, h2, h3 {
+mainHeading, h2, h3 {
 	margin: 0;
 }
 
-h1 {
+/* h1 {
 	font-size: 2.5em;
-}
+} */
 
 main h2 {
 	padding: 0.625em 0 0.625em 0.625em;
@@ -54,11 +61,15 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	margin-right: 1em;
-	font-size: 0.75em;
+	font-size: 1em;
 }
 
 p {
 	padding: 1.25em;
+}
+
+testP funParagraph{
+    color: green;
 }
 
 figure {
